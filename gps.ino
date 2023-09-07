@@ -10,12 +10,12 @@ Thread myThread = Thread();
 
 TinyGPSPlus gps_;
 
-char phone_no[] = "+2347038557674";
+char phone_no[] = "+234xxxxxxxx";
 
 double lat_v, lng_v;
 
 int state;
-String sname = "Adebisi Deborah";
+String sname = "John Doe";
 String loc = "https://maps.google.com/maps?q=loc:" + String((float)lat_v, 6) + "," + String((float)lng_v, 6);
 
 void setup() {
